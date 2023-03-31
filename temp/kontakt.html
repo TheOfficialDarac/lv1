@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<title>VUV | O veleučilištu</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav class="navbar">
+		<a href="index.html">
+			<img src="img/logo-vuv.png" alt="vuv logo" title="Home page" class="logo">
+		</a>
+		<ul class="nav_barOptions">
+			<li><a href="index.html">Naslovna</a></li>
+			<li><a href="oveleucilistu.html">O Veleučilištu</a></li>
+			<li><a href="studijski_programi.html">Studijski programi</a></li>
+			<li><a href="nastavnici.html">Nastavnici</a></li>
+			<li><a href="kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+	<main id="kontaktHQ">
+		<!-- <form>
+			<table>
+				<tr><td>Ime</td></tr>
+				<tr>
+					<td>
+						<input type="text" name="ime" placeholder="Unesite ime">
+					</td>
+				</tr>
+				<tr><td>Prezime</td></tr>
+				<tr>
+					<td>
+						
+						<input type="text" name="prezime" placeholder="Unesite prezime">
+					</td>
+				</tr>
+				<tr><td>Mail adresa</td></tr>
+				<tr><td><input type="mail" name="email" placeholder="Mail Adresa"></td></tr>
+				<tr><td>Poruka</td></tr>
+				<tr><td><input type="textbox" name="textbox" placeholder="Unesite poruku..."></td></tr>
+			</table>
+		</form> -->
+		<form>
+			<p>Ime</p>
+			<input type="text" name="ime" placeholder="Unesite ime" required>
+			<p>Prezime</p>
+			<input type="text" name="prezime" placeholder="Unesite prezime" required>
+			<p>Mail adresa</p>
+			<input type="mail" name="email" placeholder="Mail Adresa" required>
+			<p>Poruka</p>
+			<textarea placeholder="Unesite poruku..." rows="6" name="poruka" required></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+	<footer>
+		<p>Stranicu izradio: Dario Rupčić</p>
+	</footer>
+</body>
+</html>
